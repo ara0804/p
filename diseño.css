@@ -1,0 +1,138 @@
+body {
+    
+    background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+    
+}  
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+main{
+    position: absolute;
+    width: 1050px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+
+} 
+header{
+    width: 120px;
+    height: 100px;
+    font-family: cursive;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.seccion{
+    position: relative;
+    justify-content: flex-end;
+    
+}
+.seccion2{
+
+    width: 330px;
+    height: 175px;
+    right: 250px;
+    padding-right: 45px;
+    background-color: #6dd5ed;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 30px 38px -10px rgba(82, 117, 188, 0.8);
+}
+
+.resultado{
+    bottom: 480px;
+    width: 380px;
+    height: 500px;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 30px;
+}
+
+.caja{
+    width: 350px;
+    height: 150px;
+    border-color: black;
+    background-color: #86a8e7;
+    cursor: pointer;
+    color: #0c1f3a;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: cursive;
+}
+
+.caja::placeholder{
+    color: #111131;
+}
+
+.alerta{
+    
+    top: 10px;
+    left: 10px;
+    right: 30px;
+    left: 30px;
+    display: flex-start;
+    color: rgb(33, 37, 37);
+    border-radius: 10px;
+}
+
+.botones{
+    justify-content: flex-start;
+    flex-direction: row;
+    top: 250px;
+    height: 95px;
+    padding-left: 15%;
+    padding-top: 20px;
+}
+
+.b_encriptador{
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #2193b0;
+    color: #6dd5ed;
+    font-size: 20px;
+    font-weight:500;
+    font-family: cursive;
+    border-color: beige;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.b_desencriptador{
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #6dd5ed ;
+    color:  #2193b0;
+    font-size: 20px;
+    font-weight:500;
+    font-family: cursive;
+    border-color: beige;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.b_copiar{
+    width: 90px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #386d98;
+    color: #91eae4;
+    font-size: 20px;
+    font-family: cursive;
+    border: 2px solid #102c33;
+    cursor: pointer;
+}
+.resultado{
+
+   
+    width: 100px;
+    height: 35px;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}

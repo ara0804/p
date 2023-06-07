@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="diseño.css">
+
+</head>
+<body>
+    <header class="titulo">ENCRIPTADOR</header>
+    <main>
+        <section class=" seccion1">
+            <div class="contenedor_caja">
+                <textarea placeholder="Ingrese la palabra" class="caja"></textarea>
+            </div>
+
+            <div class="alerta">
+                <p>Ingrese solo letras minusculas y sin acento</p>
+            </div>
+
+            <div class="botones">
+                <input type ="button" class="b_encriptador" value="ENCRIPTAR">
+                <input type ="button" class="b_desencriptador" value="DESENCRIPTAR">
+            </div>
+
+        </section>    
+        <section class="seccion2">
+            <div class="parrafo">
+                    <h3>Ningun mensaje <br>encontrado.</h3>
+                        <p>Ingrese la contraseña para encriptar<br> o desencriptar.</p>     
+            </div>
+
+            <div class="copia">
+                <input type="button" class="b_copiar"  value="COPIAR">
+            </div>
+
+            <div class="resultado">
+                <p class="text_resultado"></p>
+            </div>
+            
+
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
